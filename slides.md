@@ -39,6 +39,7 @@ Porque es crucial para dispositivos IoT <!-- .element: class="fragment" data-fra
 
 ### Contras
  * El protocolo de la capa física es propietario
+ * Envío 1% del tiempo, como máximo
 
 
 ## Cambios de firmware al instante
