@@ -26,16 +26,49 @@ Porque es crucial para dispositivos IoT <!-- .element: class="fragment" data-fra
  * Narrowband-IoT (NB-IoT)
 
 
+## SigFox
+Fundado en 2009 por *Labège*, en Francia.
 
-## ¿Por qué LoRa?
-¿Comparativa aquí?
+Tecnología propietaria. 
 
+Baja frecuencia para largo alcance. Apps con pequeños e infrecuentes datos.
+
+![Arquitectura SigFox](./img/sigfox.jpg)
+
+
+## Symphony Link
+Capa MAC software sobre chips de la empresa *Semtech*, por *Link Labs* en 2013 (EEUU).
+
+Añade acuse de recibo de mensajes, actualizaciones *OTA*, capacidad de actuación como repetidor, etc.
+
+![Arquitectura Symphony](./img/symphony-link.jpg)
+
+
+## Weightless/NWave
+Similar a *SigFox* implementando una mejor capa MAC.
+
+Permite coexistencia con otras tecnologías de radio sin ruido adicional.
+
+Ideal para apps sencillas (sensorización de temperatura, capacidad, etc).
+
+
+## Weightless
+Fundado en 2008 con la misión de estandarizar las tecnologías *LPWAN* por empresas como *Accenture*, *ARM* y *Sony*.
+
+#### Versiones:
+ - *Weighless-W*: aprovecha el espacio no utilizado por la banda de TV.
+ - *Weighless-N*: versión sin licencia cerrada de *NB-IoT*.
+ - *Weighless-P*: protocolo bidireccional basado en la tecnología de *M2COMM*.
+
+La versión *W* es más potente, consume más y es menos popular.
+
+
+## Características de LoRa
 
 ### Pros
  * Es una frecuencia libre: banda ISM. En Europa 868MHz o 433MHz
  * Usa una técnica de modulación de espectro ensanchado
  * Está dividido en dos partes: capa física y LoRaWAN (Long Range Wide Area Network)
-
 
 ### Contras
  * El protocolo de la capa física es propietario
