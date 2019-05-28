@@ -1,24 +1,44 @@
-# µPython <!-- .element: style="margin-top:3em" -->
-<!-- .slide: data-background="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Micropython-logo.svg/2000px-Micropython-logo.svg.png" data-background-size="30%" data-background-position="top" -->
+# Long Range <!-- .element: style="margin-top:3em" -->
+<!-- .slide: data-background="https://aptinex.com/wp-content/uploads/2017/09/iot-lora-alliance-logo.svg.png" data-background-size="30%" data-background-position="top" -->
 
 
 ## ¿Qué es?
-Una implementación de Python3 para microcontroladores <!-- .element: class="fragment" data-fragment-index="1" -->
+Es un protocolo de comunicación inalámbrico de largo alcance diseñado para IoT que compite contra otras tecnologías LPWAN<!-- .element: class="fragment" data-fragment-index="1" -->
 
-### ¿Qué es un microcontrolador? <!-- .element: class="fragment" data-fragment-index="2" -->
-![ESP8266](http://images.carptum.com.s3.amazonaws.com/23951/bcbff267d3de385d46a44daefd3c85ebbdf24c39/size_600x.jpg) <!-- .element: class="fragment" data-fragment-index="3" height="40%" width="40%" -->
-![Diagrama de bloques ESP8266](img/esp8266_block_diagram.png) <!-- .element: class="fragment" data-fragment-index="4" height="40%" width="40%" -->
-[Datasheet ESP8266](https://www.espressif.com/sites/default/files/documentation/0a-esp8266ex_datasheet_en.pdf)
-<!-- .element: class="fragment" data-fragment-index="4" -->
+### ¿Qué es LPWAN? <!-- .element: class="fragment" data-fragment-index="2" -->
+Low Power Wide-area Network (Red de área ámplia de baja energía) <!-- .element: class="fragment" data-fragment-index="3" -->
+
+### ¿Por qué "baja energía"? <!-- .element: class="fragment" data-fragment-index="4" -->
+Porque es crucial para dispositivos IoT <!-- .element: class="fragment" data-fragment-index="5" -->
+
+
+## Atributos de LPWAN
+ * Largo alcance
+ * Baja energía
+ * Bajo coste
+
+
+## Otras tecnologías LPWAN
+ * SigFox
+ * Symphony Link
+ * Weightless
+ * LTE-M
+ * Narrowband-IoT (NB-IoT)
 
 
 
-## ¿Por qué µPython?
- * Interpretado. Menos velocidad pero portable. 
- * Interactivo. ¡¡Tenemos consola!! 
- * Tenemos muchos [módulos](https://docs.micropython.org/en/latest/library/index.html#python-standard-libraries-and-micro-libraries) a nuestra disposición. 
- * Extensible. Podemos crear los módulos que necesitemos. Python a alto nivel y CPython a bajo nivel. 
-### Más alto nivel. <!-- .element: class="fragment" data-fragment-index="5" -->
+## ¿Por qué LoRa?
+¿Comparativa aquí?
+
+
+### Pros
+ * Es una frecuencia libre: banda ISM. En Europa 868MHz o 433MHz
+ * Usa una técnica de modulación de espectro ensanchado
+ * Está dividido en dos partes: capa física y LoRaWAN (Long Range Wide Area Network)
+
+
+### Contras
+ * El protocolo de la capa física es propietario
 
 
 ## Cambios de firmware al instante
