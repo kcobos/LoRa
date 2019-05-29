@@ -22,4 +22,4 @@ So yes… you can move around and gateways in reach will receive and forward the
  * https://en.wikipedia.org/wiki/LoRa
  * https://www.postscapes.com/long-range-wireless-iot-protocol-lora/
  * https://tools.ietf.org/html/rfc8376
- * 
+ * https://www.link-labs.com/blog/what-is-weightless
